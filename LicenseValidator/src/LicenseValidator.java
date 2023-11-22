@@ -10,17 +10,17 @@ public class LicenseValidator {
     }
 
     public boolean isRegistered() {
-
+        return true;
     }
 
 
     public boolean startRegistration() {
-
+        return true;
     }
 
 
     public void showLicenseInfo() {
-
+        System.out.println(appName + ", " + version);
     }
 
 
