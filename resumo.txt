@@ -1,0 +1,7 @@
+registo: buscar dados necessarios > assinar com cc > encriptar com chave simetrica a pasta > encriptar com a chave asimetrica (publica do gestor de licensas)
+login: desincriptar > validar assinatura > criar licensa com validade (ex. 1 semana) > criar copia para gestor e uma para utilizador com chave publica dele
+
+3: 
+calculadora
+autenticacao
+gestor licensas
