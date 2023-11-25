@@ -70,7 +70,7 @@ armazenamento, ou mesmo identificadores da BIOS.
             }
         } catch (SocketException e) {
             e.printStackTrace();
-            return "Error collecting network info";
+            return "Erro a recolher o hash da placa de rede";
         }
 
         return hashString(sb.toString());
@@ -88,7 +88,7 @@ armazenamento, ou mesmo identificadores da BIOS.
             return hexString.toString();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
-            return "Error hashing the string";
+            return "Erro a criar o hash da string";
         }
     }
 
